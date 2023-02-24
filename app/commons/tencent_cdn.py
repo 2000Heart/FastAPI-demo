@@ -17,7 +17,7 @@ from config import configs
 
 
 # CDN产品
-from app.mydbs.tencen_cdn import save_child_account_to_db, get_tencet_user_by_id
+from app.mydbs.tencen_cdn import get_tencet_user_by_id
 
 production = configs.CDN_PRODUCTION_NAME
 
